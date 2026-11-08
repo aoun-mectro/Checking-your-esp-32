@@ -1,0 +1,21 @@
+#define LED 2
+// the above #define means that 'replace 
+// LED with 2 , where 2 in the pin on our 
+// esp. 
+// also to new people // is a comment 
+// meaning it dosent get compiled. and if 
+// just for the developers and used as 
+// notes. 
+
+void setup(){
+ pinMode(LED, OUTPUT);
+// here we are saying to use LED or pin 2 
+// as output 
+}
+
+void loop(){
+ digitalWrite(LED, HIGH);
+ delay(500);
+ digitalWrite(LED, LOW);
+ delay(500);
+}

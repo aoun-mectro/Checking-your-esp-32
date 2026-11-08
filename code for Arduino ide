@@ -11,7 +11,7 @@
 void setup(){
 // this code is executed once. 
  pinMode(LED, OUTPUT);
-// here we are saying to use LED or pin 2 
+// here we are saying to use LED/pin 2 
 // as output 
 }
 

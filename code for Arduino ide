@@ -1,11 +1,11 @@
 #define LED 2
 // the above #define means that 'replace 
-// LED with 2 , where 2 in the pin on our 
-// esp. 
+// LED with 2 , where 2 in the pin on 
+// our esp. 
 // also to new people // is a comment 
-// meaning it dosent get compiled. and if 
-// just for the developers and used as 
-// notes. 
+// meaning it dosent get compiled. 
+// and is just for the developers 
+// and used as notes. 
 
 void setup(){
  pinMode(LED, OUTPUT);

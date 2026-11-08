@@ -1,6 +1,7 @@
 #define LED 2
-// the above #define means that 'replace 
-// LED with 2 , where 2 in the pin on 
+// the above #define means that 
+//'replace LED with 2' , where 
+// 2 is the pin on 
 // our esp. 
 // also to new people // is a comment 
 // meaning it dosent get compiled. 
@@ -8,14 +9,20 @@
 // and used as notes. 
 
 void setup(){
+// this code is executed once. 
  pinMode(LED, OUTPUT);
 // here we are saying to use LED or pin 2 
 // as output 
 }
 
 void loop(){
+// this is executed on repeat. 
  digitalWrite(LED, HIGH);
+// this function is used to set
+// high or low voltage to a pin.
  delay(500);
+// it delays the next function by 0.5s
+// or 500ns.
  digitalWrite(LED, LOW);
  delay(500);
 }
